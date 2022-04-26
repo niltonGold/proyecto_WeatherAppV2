@@ -1,0 +1,83 @@
+
+.cardDiaActual{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 0rem 0.5rem 0.8rem 0.5rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    
+}
+
+
+        /* ICONO DE LA IMAGEN DEL CLIMA */
+            .icono_tiempo-actual{
+
+            }
+
+        
+        /* VALOR DE LA TEMPERATURA EN CELCIUS O FARENHEIT */
+            .temperatura-number-simbolo-celcius-farenheit-container{
+                display: flex;
+                flex-direction: row;
+                /* background-color: blueviolet; */
+                /* align-self: flex-start; */
+                /* align-items: flex-start;
+                align-content: flex-start  */
+            }
+                    .temperatura-numero{
+                        font-size:xx-large;
+                        /* background-color: azure; */
+                        /* display: flex;
+                        align-self: flex-start;
+                        align-items: flex-start;
+                        align-content: flex-start  */
+                        /* vertical-align: start;
+                        padding: 0; */
+                    
+                    }
+
+                    .mostrar-simbolo-grados{
+                        /* background-color: bisque; */
+                        font-size:large;
+                        padding-top: 0.1rem;
+                    }
+
+                        .ocultar-celcius_o_farenheit{
+                            display: none;
+                        }
+
+
+        /* DIA ACTUAL Y HORA ACTUAL */
+        .dia_hora_actual-container{
+            display: flex;
+            flex-direction: row;
+            gap: 0.4rem;
+            /* word-break: break-all; */
+            flex-wrap: wrap;
+        }
+                    .dia_actual{
+
+                    }
+
+                    .hora_actual{
+                        /* color: #cecece; */
+                        color: #9e9b9b;
+                    }
+
+
+        /* DESCRIPCION DEL CIELO */
+        .iconoNube_descripcionCielo-container{
+            display: flex;
+            flex-direction: row;
+            gap: 0.4rem;
+            align-items: center;
+        }
+                    .cieloDescripcion{
+
+                    }            
+
+
+
+
+
