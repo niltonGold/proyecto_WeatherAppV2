@@ -1,0 +1,76 @@
+
+
+.todaysHighlights-cards-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: rgb(237, 237, 237);
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    border-radius: 20px;
+}
+
+        .todaysHighlights-cards-title{
+            font-weight: bold;
+            text-decoration: underline;
+        }
+
+        .todaysHighlights-cards-fila{
+            display: flex;
+            flex-direction: row;
+            gap: 1rem;
+            width: 80%;
+            /* background-color: aqua; */
+            justify-content: center;
+        }
+
+                .todaysHighlights-card{
+                    width: 90px;
+                    height: 80px;
+                    background-color: white;
+                    border-radius: 20px;
+                }
+
+                        .todaysHighlights-card-title{
+                            /* background-color: aqua; */
+                            color: #9e9b9b;
+                            height: 20%;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                        }
+                                    .title_text{
+                                        font-size: 10px;;
+                                    }
+
+                        .todaysHighlights-card-body{
+                            /* background-color:rgb(179, 124, 57); */
+                            height: 60%;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            gap: 0.2rem;
+                        }
+                                .number{
+                                     font-size: large;
+                                     /* background-color: antiquewhite;   */
+                                }
+                                .simbolo-metricoKmH_Km{
+                                    /* background-color: rgb(156, 156, 201); */
+                                    height: 41%;
+                                    display: flex;
+                                    align-items: flex-end;
+                                }
+                                .simbolo-metrico_porcentaje{
+                                    /* background-color: rgb(156, 156, 201); */
+                                    height: 35%;
+                                    display: flex;
+                                    align-items: flex-start;
+                                }
+                                .sunriseSunsetHour{
+                                    display: flex;
+                                    flex-direction: column;
+                                    gap: 0.5rem;
+                                }

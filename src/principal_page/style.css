@@ -1,0 +1,130 @@
+
+.card_container{
+    width: 600px;
+    height:auto;
+    background-color: #d6d7db;
+    padding: 1rem 1rem 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border-radius: 25px;
+
+}
+
+
+/* --------------------------------------------------------------------------- */
+            .serach_and_celciusFarenheit-container{
+                background-color: #9397a3;
+                padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+                border-radius: 25px;
+            }
+                    .serach_and_celciusFarenheit-interior{
+                        /* background-color: aqua; */
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                    }
+                            .button_iconCancel{
+                                border: none;
+                                background: none;
+                                display: flex;
+                                align-items: center;
+                            }
+                            .button_iconCancel:hover{
+                                background-color: #d6d7db;
+                                cursor: pointer;
+                            }
+
+                    .celcius-farenheit-btns{
+                        display: flex;
+                        flex-direction: row;
+                        /* background-color: rgb(138, 163, 163); */
+                        align-items: center;
+                        gap: 1rem;
+                    }
+
+                            .tab-activate{
+                                background-color: black;
+                                color: white;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                border-radius: 50%;
+                                width: 25px;
+                                height: 25px;
+                            }
+                                    .tab-activate:hover{
+                                        cursor: pointer;
+                                    }
+            
+            
+                            .tab-desactivate{
+                                background-color: antiquewhite;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                border-radius: 50%;
+                                width: 25px;
+                                height: 25px;
+                            }
+                                    .tab-desactivate:hover{
+                                        cursor: pointer;
+                                    }
+
+
+
+
+/* --------------------------------------------------------------------------- */
+            .cardActualInfo_TodaysHighlights-container{
+                background-color: #9397a3;
+                padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+                border-radius: 25px;
+            }
+                    .cardActualInfo_TodaysHighlights-interior{
+                        /* background-color: aqua; */
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        /* flex-wrap: wrap; */
+                        gap: 1rem;
+                    }
+                            .cardDiaActual_principal_page{
+                                /* background-color: white; */
+                                width: 20%;
+                            }
+                            .todaysHighlights_principal_page{
+                                /* background-color: blue; */
+                                width: 80%;
+                                display: flex;
+                            }
+
+
+
+
+/* --------------------------------------------------------------------------- */
+            .week_container{
+                background-color: #9397a3;
+                padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+                border-radius: 25px;
+            }
+                    .week_container-interior{
+                        /* background-color: aqua; */
+                    }
+                            .week_container-interior-title-container{
+                                /* background-color: antiquewhite; */
+                                text-align: center;
+                                font-weight: bold;
+                                text-decoration: underline;
+                                padding-bottom: 0.4rem;        
+                            }
+                            .week_container-interior-cards-container{
+                                display: flex;
+                                flex-direction: row;
+                                justify-content: center;
+                                gap: 1rem;
+                                
+                            }
+
+
+
+                

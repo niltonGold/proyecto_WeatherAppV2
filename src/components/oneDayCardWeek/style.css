@@ -1,0 +1,32 @@
+
+
+.oneCardWeek-Container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #FFFF;
+    align-items: center;
+    border-radius: 10px;
+    width: 60px;
+    height: 90px;
+}
+
+
+        .oneCardWeek-day{
+            text-align: center;
+            /* background-color: aqua; */
+        }
+
+        .iconWeather{
+            width: 30px;
+        }
+
+        .temperature-container{
+            display: flex;
+            flex-direction: row;
+            gap: 0.2rem;
+        }
+                .temperaturaMin{
+                    /* color: #cecece; */
+                    color: #9e9b9b;
+                }
